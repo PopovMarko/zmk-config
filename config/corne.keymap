@@ -12,6 +12,7 @@
 / {
     combos {
         compatible = "zmk,combos";
+
         combo_esc {
             timeout-ms = <50>;
             key-positions = <19 20>;
@@ -19,14 +20,19 @@
         };
         combo_enter {
             timeout-ms = <50>;
-            key-positions = <32 33>;
+            key-positions = <31 32>;
             bindings = <&kp ENTER>;
         };
         combo_backspace {
             timeout-ms = <50>;
-            key-positions = <8 9>;
+            key-positions = <7 8>;
             bindings = <&kp BSPC>;
         };
+        combo_tab {
+            timeout-ms = <50>;
+            key-positions = <15 16>;
+            bendings = <&kp TAB>;
+        }
     };
 
         keymap {
