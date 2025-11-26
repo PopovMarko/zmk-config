@@ -60,7 +60,7 @@
                         bindings = <
    &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4    &kp N5         &kp N6         &kp N7         &kp N8       &kp N9          &kp N0 &kp BSPC
    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &mkp MB1  &bt BT_SEL 4   &kp LEFT       &kp DOWN       &kp UP       &kp RIGHT       &trans &trans
-   &kp LSHFT  &trans       &trans       &trans       &mkp MB2  &trans         &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_UP &mmv MOVE_ROGHT &trans &trans
+   &kp LSHFT  &trans       &trans       &trans       &mkp MB2  &trans         &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_UP &mmv MOVE_RIGHT &trans &trans
                                         &kp LGUI     &mo 3     &trans         &trans         &trans         &kp RALT
                         >;
                 };
@@ -118,7 +118,7 @@
                         bindings = <
    &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4    &kp N5         &kp N6         &kp N7         &kp N8       &kp N9          &kp N0 &kp BSPC
    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &mkp MB1  &bt BT_SEL 4   &kp LEFT       &kp DOWN       &kp UP       &kp RIGHT       &trans &trans
-   &kp LSHFT  &trans       &trans       &trans       &mkp MB2  &trans         &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_UP &mmv MOVE_ROGHT &trans &trans
+   &kp LSHFT  &trans       &trans       &trans       &mkp MB2  &trans         &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_UP &mmv MOVE_RIGHT &trans &trans
                                         &kp LGUI     &mo 7     &trans         &trans         &trans         &kp RALT
                         >;
                 };
