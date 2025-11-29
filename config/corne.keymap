@@ -42,6 +42,11 @@
             key-positions = <34 35>;
             bindings = <&kp RSHIFT>;
         };
+        combo_delete {
+            timout-ms = <50>;
+            key-positions = <40 7 8>;
+            bindings = <&kp DEL>;
+        };
     };
 
         keymap {
